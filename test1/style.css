@@ -1,0 +1,122 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+   }
+   
+   body{
+    background-image:linear-gradient(rgba(241, 106, 16, 0.336),rgba(50, 15, 248, 0.308)), url('background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   }
+   
+   nav{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 70px;
+    background-color: #0009;
+   }
+   
+   #nav1{
+    font-family: 'Monoton', cursive;
+    width: 30%;
+    float: left;
+   }
+   
+   #nav2{
+    width: 40%;
+    float: left;
+   }
+   
+   #nav3{
+    width: 30%;
+    float: right;
+   }
+   
+   #logo{
+    font-size: 30px;
+    margin-left: 20%;
+    color: #fff;
+    line-height: 70px;
+   }
+   
+   #nav2 ul li{
+    list-style: none;
+    display: inline;
+   }
+   
+   #nav2 ul li a{
+    font-size: 18px;
+    color: #fff;
+    line-height: 70px;
+    margin: 10px;
+    padding: 13px;
+    text-decoration: none;
+   }
+   
+   #nav2 ul li a:hover{
+    background-color: #FF1055;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 5px;
+   }
+   
+   #nav3 input{
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    margin-top: 15px;
+   }
+   
+   #btn1{
+    height: 40px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid #FF1055;
+    color: #fff;
+    border-radius: 5px;
+   }
+   
+   #btn1:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+   }
+   
+   span{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FF1055;
+   }
+   
+   #hed1{
+    color: #fff;
+    padding-top: 200px;
+    margin-left: 15%;
+    font-family: verdana;
+    font-weight: lighter;
+   }
+   
+   #para{
+    margin-left: 15%;
+    color: #fff;
+    margin-top: 15px;
+   }
+   
+   #btn2{
+    height: 50px;
+    width: 170px;
+    background-color: transparent;
+    border: 2px solid #FF1055;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-top: 18px;
+   }
+   
+   #btn2:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+   }
